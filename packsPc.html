@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="stylesheet" href="css/comun.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+        <nav class="sidebar close">
+            <header>
+                <div class="image-text">
+                    <span class="image">
+                        <img src="img/logo-prueba.png" alt="logo">
+                    </span>
+
+                    <div class="text header-text">
+                        <span class="name">TikAlmi</span>
+                        <span class="profession">Tu solucion en un Tik</span>
+                    </div>
+                </div>
+                <i class='bx bx-chevron-right toggle'></i>
+            </header>
+
+
+            <div class="menu-bar">
+                <div class="menu">
+                    <li class="search-box">
+                            <i class='' ></i>
+                    </li>
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="">
+                                <i class='bx bx-purchase-tag-alt icon' ></i>
+                                <span class="text nav-text">Configuraciones PC</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="">
+                                <i class='bx bx-basket icon'></i>
+                                <span class="text nav-text">Componentes</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bottom-content">
+
+                    <li class="">
+                        <a id="form-open"> <!-- Cuidado con el href aqui si se pone, lo coge raro y quita el "home show" -->
+                            <i class='bx bx-log-in icon'></i>
+                            <span class="text nav-text">LogIn</span>
+                        </a>
+                    </li>
+
+                    <li class="mode">
+                        <div class="moon-sun">
+                            <i class='bx bx-moon icon moon' ></i>
+                            <i class='bx bx-sun icon sun' ></i>
+                        </div>
+                        <span class="mode-text text">Dark Mode</span>
+
+                        <div class="toggle-switch">
+                            <span class="switch"></span>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        <script src="js/nav-script.js"></script>
+        <section class="home">
+            <div class="text">Seleccione la gama de de la configuracion</div>
+            <div class="container-packs">
+                <div class="content-packs">
+                    <div class="images-packs">
+                        <div class="image-packs">
+                            <br>
+                            <img src="img/bronce.jpg" alt="">
+                            <br>
+                            <h6>Bronze Configuration - Entry-Level Performance</h6>
+                            <br>
+                            <p>Are you just stepping into the world of PC gaming or looking for a budget-friendly solution for your everyday computing needs? Our Bronze Configuration is tailored for you. Designed with cost-effectiveness in mind, this setup offers reliable performance for casual gaming, web browsing, and productivity tasks. Perfect for students, budget-conscious users, and those seeking a basic computing experience without breaking the bank. With the Bronze Configuration, you'll enjoy smooth operation for everyday tasks and light gaming, all at an affordable price point.</p>
+                            <br>
+                        </div>
+                        <div class="image-packs">
+                            <br>
+                            <img src="img/plata.jpg" alt="">
+                            <br>
+                            <h6>Silver Configuration - Mid-Range Excellence</h6>
+                            <br>
+                            <p>Ready to elevate your gaming and computing experience to the next level without breaking the bank? Our Silver Configuration strikes the perfect balance between performance and affordability. Ideal for gamers and content creators who demand more power and capability from their PCs, this setup delivers smooth gaming experiences, faster multitasking, and improved graphics rendering. Whether you're diving into the latest AAA titles or tackling demanding creative projects, the Silver Configuration ensures you have the horsepower to handle it all. Upgrade your gaming rig or workstation to the Silver Configuration and experience a significant boost in performance without sacrificing your budget.</p>
+                            <br>
+                        </div>
+                        <div class="image-packs">
+                            <br>
+                            <img src="img/oro.jpg" alt="">
+                            <br>
+                            <h6>Gold Configuration - High-End Powerhouse</h6>
+                            <br>
+                            <p>For the ultimate gaming and computing experience, look no further than our Gold Configuration. Engineered for enthusiasts, hardcore gamers, and professionals who demand uncompromising performance and cutting-edge technology, this setup represents the pinnacle of PC excellence. With top-of-the-line components, overclocking capabilities, and advanced cooling systems, the Gold Configuration delivers unparalleled power, speed, and reliability. Dominate the latest AAA titles, render 3D animations with ease, or tackle complex simulations without breaking a sweat. Elevate your gaming and productivity to new heights with the Gold Configuration and experience the true power of a high-end PC.</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- El form oculto -->
+            <div class="form_container">
+                <i class='bx bx-x-circle form_close'></i>
+                <!-- El Login -->
+                <div class="form login_form">
+                    <form action="">
+                        <h2>Inicia Sesion</h2>
+
+                        <div class="input_box">
+                            <input type="email" placeholder="Introduzca su mail" required>
+                            <i class='bx bxs-envelope email'></i>
+                        </div>
+                        <div class="input_box">
+                            <input type="password" placeholder="Introduzca su password" required>
+                            <i class='bx bxs-lock-alt password'></i>
+                            <i class='bx bxs-lock-open-alt pw_hide' ></i>
+                        </div>
+                        <div class="option_field">
+                            <span class="checkbox">
+                                <input type="checkbox" id="check">
+                                <label for="check">Recuerdame</label>
+                            </span>
+                            <a href="" class="forgot_pw">Olvidaste tu contraseña?</a>
+                        </div>
+                        
+                        <button class="button">Inicia Sesion</button>
+                        <div class="login_signup">Todavia sin cuenta? Unete a nosotros! <a href="#" id="signup">Registrate</a></div>
+                    </form>
+                </div>
+                <!-- El registros -->
+                <div class="form signup_form">
+                    <form action="">
+                        <h2>Registrate</h2>
+
+                        <div class="input_box">
+                            <input type="email" placeholder="Introduzca su mail" required>
+                            <i class='bx bxs-envelope email'></i>
+                        </div>
+                        <div class="input_box">
+                            <input type="password" placeholder="Cree su password" required>
+                            <i class='bx bxs-lock-alt password'></i>
+                            <i class='bx bxs-lock-open-alt pw_hide' ></i>
+                        </div>
+                        <div class="input_box">
+                            <input type="password" placeholder="Confirme su password" required>
+                            <i class='bx bxs-lock-alt password'></i>
+                            <i class='bx bxs-lock-open-alt pw_hide' ></i>
+                        </div>
+                        
+                        <button class="button">Registrate</button>
+
+
+                        <div class="login_signup">Ya tiene suna cuenta? <a href="#" id="login">Incica Sesion</a></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="js/form-script.js"></script>
+
+    </body>
+</html>
